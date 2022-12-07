@@ -1,0 +1,73 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url = "***"
+}
+
+model Answersheet {
+  answers    Int[]
+  exam_id    Int
+  id         Int     @default(autoincrement()) @id
+  student_id Int
+  exam       Exam    @relation(fields: [exam_id], references: [id])
+  student    Student @relation(fields: [student_id], references: [id])
+}
+
+model Course {
+  id      Int       @default(autoincrement()) @id
+  exams    Exam[]
+  owner   Owner
+  students Student[]
+}
+
+model Exam {
+  course_id   Int
+  id          Int           @default(autoincrement()) @id
+  course      Course        @relation(fields: [course_id], references: [id])
+  answersheets Answersheet[]
+  questions    Question[]
+}
+
+model Owner {
+  course_id Int    @unique
+  id        Int    @default(autoincrement()) @id
+  person_id Int
+  course    Course @relation(fields: [course_id], references: [id])
+  person    Person @relation(fields: [person_id], references: [id])
+}
+
+model Person {
+  email   String?   @unique
+  password String
+  id      Int       @default(autoincrement()) @id
+  owners   Owner[]
+  students Student[]
+}
+
+model Question {
+  answer  Int
+  choices String[]
+  exam_id Int
+  id      Int      @default(autoincrement()) @id
+  text    String?
+  exam    Exam     @relation(fields: [exam_id], references: [id])
+}
+
+model Student {
+  course_id   Int
+  id          Int           @default(autoincrement()) @id
+  person_id   Int
+  course      Course        @relation(fields: [course_id], references: [id])
+  person      Person        @relation(fields: [person_id], references: [id])
+  answersheets Answersheet[]
+}
+
+model Admin {
+  id          Int           @default(autoincrement()) @id
+  email     String          @unique
+  password      String
+
+}

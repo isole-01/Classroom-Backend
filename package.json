@@ -1,0 +1,34 @@
+{
+  "name": "untitled8",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "babel-node index.js",
+    "tst": "babel-node utils/test.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.10.2",
+    "@babel/node": "^7.10.1",
+    "@babel/preset-env": "^7.10.2",
+    "@prisma/cli": "^2.3.0",
+    "nodemon": "^2.0.4"
+  },
+  "dependencies": {
+    "@koa/cors": "latest",
+    "@prisma/client": "^2.2.0",
+    "apollo-server-koa": "^2.15.1",
+    "bcrypt": "^5.0.0",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "graphql": "^15.0.0",
+    "jsonwebtoken": "^8.5.1",
+    "koa": "^2.13.0",
+    "koa-router": "^9.1.0",
+    "moment": "^2.27.0"
+  }
+}

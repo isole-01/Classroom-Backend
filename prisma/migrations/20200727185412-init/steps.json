@@ -1,0 +1,32 @@
+{
+  "version": "0.3.14-fixed",
+  "steps": [
+    {
+      "tag": "UpdateField",
+      "model": "Course",
+      "field": "start_date",
+      "type": "DateTime"
+    },
+    {
+      "tag": "CreateField",
+      "model": "Exam",
+      "field": "title",
+      "type": "String",
+      "arity": "Required"
+    },
+    {
+      "tag": "CreateField",
+      "model": "Exam",
+      "field": "date",
+      "type": "DateTime",
+      "arity": "Required"
+    },
+    {
+      "tag": "CreateField",
+      "model": "Exam",
+      "field": "duration",
+      "type": "Int",
+      "arity": "Required"
+    }
+  ]
+}

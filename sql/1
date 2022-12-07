@@ -1,0 +1,74 @@
+CREATE TABLE Users (
+	id SERIAL PRIMARY KEY,
+	
+	email VARCHAR (50) UNIQUE
+	
+	
+);
+
+CREATE TABLE Students(
+	id SERIAL PRIMARY KEY,
+	
+	course BIGINT NOT NULL,
+	userid BIGINT NOT NULL,
+
+	
+	FOREIGN KEY (course) REFERENCES Courses (id),
+	FOREIGN KEY (userid) REFERENCES Users (id)
+);
+
+
+CREATE TABLE Owners(
+	id SERIAL PRIMARY KEY,
+	
+	course BIGINT NOT NULL,
+	userid BIGINT NOT NULL,
+
+	
+	FOREIGN KEY (course) REFERENCES Courses (id),
+	FOREIGN KEY (userid) REFERENCES Users (id)
+
+);
+
+
+CREATE TABLE Courses(
+	id SERIAL PRIMARY KEY
+
+);
+
+
+CREATE TABLE Exams(
+	id SERIAL PRIMARY KEY,
+	
+	course BIGINT NOT NULL,
+	
+	FOREIGN KEY (course) REFERENCES Courses (id)
+);
+
+
+CREATE TABLE Questions(
+	id SERIAL PRIMARY KEY,
+
+	answer INTEGER NOT NULL,
+	text VARCHAR (400),
+	choices Text [],
+	
+	exam BIGINT NOT NULL,
+	FOREIGN KEY (exam) REFERENCES Exams (id)
+
+
+);
+
+CREATE TABLE AnswerSheets(
+	id SERIAL PRIMARY KEY,
+
+	
+	answers INTEGER [],
+	
+	exam BIGINT NOT NULL,
+	FOREIGN KEY (exam) REFERENCES Exams (id),
+	
+	student BIGINT NOT NULL,
+	FOREIGN KEY (studentid) REFERENCES Students (id)
+
+);

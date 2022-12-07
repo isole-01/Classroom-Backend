@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="58b418d2-6f7c-47d5-932a-ac1484c75869" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1cdnFD1fxLna409l6PctXpTHkVe" />
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_interpreter_path" value="node" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="preferences.fileTypes" />
+    <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\WebStorm 2019.2\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="npm.dev">
+    <configuration name="file.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/file.js" working-dir="$PROJECT_DIR$">
+      <method v="2" />
+    </configuration>
+    <configuration name="dev" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="dev" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="tst" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="tst" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="npm.dev" />
+        <item itemvalue="Node.js.file.js" />
+        <item itemvalue="npm.tst" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="58b418d2-6f7c-47d5-932a-ac1484c75869" name="Default Changelist" comment="" />
+      <created>1590867231352</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1590867231352</updated>
+      <workItem from="1590867232926" duration="1284000" />
+      <workItem from="1590868603033" duration="2653000" />
+      <workItem from="1591011207971" duration="1092000" />
+      <workItem from="1591261944870" duration="819000" />
+      <workItem from="1591271984564" duration="186000" />
+      <workItem from="1593859935399" duration="2492000" />
+      <workItem from="1593870705227" duration="59000" />
+      <workItem from="1593870773611" duration="2481000" />
+      <workItem from="1593960468082" duration="7027000" />
+      <workItem from="1593968313284" duration="143000" />
+      <workItem from="1593983460850" duration="1314000" />
+      <workItem from="1594025981800" duration="4500000" />
+      <workItem from="1594116732766" duration="5873000" />
+      <workItem from="1594162757953" duration="2872000" />
+      <workItem from="1594221173488" duration="14465000" />
+      <workItem from="1594290644876" duration="3216000" />
+      <workItem from="1594294375992" duration="1485000" />
+      <workItem from="1595341891100" duration="265000" />
+      <workItem from="1595362038010" duration="1676000" />
+      <workItem from="1595417770612" duration="14781000" />
+      <workItem from="1595445771417" duration="4431000" />
+      <workItem from="1595515959304" duration="4104000" />
+      <workItem from="1595522923562" duration="5522000" />
+      <workItem from="1595581868436" duration="19000" />
+      <workItem from="1595592029851" duration="8351000" />
+      <workItem from="1595687047854" duration="232000" />
+      <workItem from="1595687562139" duration="5455000" />
+      <workItem from="1595717089067" duration="1382000" />
+      <workItem from="1595764731942" duration="1349000" />
+      <workItem from="1595775397588" duration="5650000" />
+      <workItem from="1595846012651" duration="3861000" />
+      <workItem from="1595859329364" duration="4576000" />
+      <workItem from="1595871207604" duration="5202000" />
+      <workItem from="1595928138534" duration="8364000" />
+      <workItem from="1595948347048" duration="8859000" />
+      <workItem from="1596019114320" duration="4251000" />
+      <workItem from="1596037730224" duration="9011000" />
+      <workItem from="1596101788198" duration="5333000" />
+      <workItem from="1596122091348" duration="28000" />
+      <workItem from="1596122127209" duration="636000" />
+      <workItem from="1596189490185" duration="3211000" />
+      <workItem from="1596210597120" duration="3946000" />
+      <workItem from="1596282838184" duration="35000" />
+      <workItem from="1596283012497" duration="1151000" />
+      <workItem from="1596304390784" duration="290000" />
+      <workItem from="1596355419146" duration="1654000" />
+      <workItem from="1596375352045" duration="201000" />
+      <workItem from="1596380891277" duration="2769000" />
+      <workItem from="1596994245169" duration="958000" />
+      <workItem from="1619803180849" duration="690000" />
+      <workItem from="1620556698037" duration="2649000" />
+      <workItem from="1623574417713" duration="666000" />
+      <workItem from="1626685877991" duration="1204000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+</project>

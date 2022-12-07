@@ -1,0 +1,28 @@
+{
+  "version": "0.3.14-fixed",
+  "steps": [
+    {
+      "tag": "CreateField",
+      "model": "Course",
+      "field": "owner",
+      "type": "Owner",
+      "arity": "Required"
+    },
+    {
+      "tag": "DeleteField",
+      "model": "Course",
+      "field": "owners"
+    },
+    {
+      "tag": "CreateDirective",
+      "location": {
+        "path": {
+          "tag": "Field",
+          "model": "Owner",
+          "field": "course_id"
+        },
+        "directive": "unique"
+      }
+    }
+  ]
+}
